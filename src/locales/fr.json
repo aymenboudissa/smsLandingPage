@@ -1,0 +1,201 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "tryNow": "Essayer maintenant"
+  },
+  "hero": {
+    "tagline": "Solution tout-en-un pour e-commerçants",
+    "title": "Automatisez vos SMS et",
+    "highlightedTitle": "boostez vos ventes",
+    "description": "Campagnes SMS marketing ciblées, suivi automatique des colis avec notifications personnalisées, et intégration native avec les transporteurs algériens.",
+    "startFree": "Commencer gratuitement",
+    "seeDemo": "Voir la démo",
+    "noCommitment": "Sans engagement",
+    "fiveMinSetup": "Inscription Gratuite"
+  },
+  "features": {
+    "title": "Fonctionnalités puissantes",
+    "subtitle": "Tout ce dont vous avez besoin pour transformer votre communication client",
+    "marketingCampaigns": {
+      "title": "Campagnes SMS Marketing",
+      "description": "Créez des campagnes ciblées pour retargeting, fidélisation et promotions.",
+      "items": [
+        "Relance des clients inactifs",
+        "Messages personnalisés",
+        "Récupération des paniers abandonnés"
+      ]
+    },
+    "bulkSending": {
+      "title": "Envoi en masse",
+      "description": "Importez un fichier Excel et envoyez des SMS à des milliers de contacts en un clic.",
+      "items": [
+        "Import Excel simple",
+        "Envoi rapide et fiable",
+        "Suivi des campagnes en temps réel"
+      ]
+    },
+    "packageTracking": {
+      "title": "Suivi automatique des colis",
+      "description": "SMS automatiques à chaque étape de livraison avec messages personnalisables.",
+      "items": [
+        "9 statuts de suivi",
+        "Messages personnalisables",
+        "Lien de suivi automatique"
+      ]
+    },
+    "multiStore": {
+      "title": "Gestion multi-boutiques",
+      "description": "Gérez plusieurs boutiques depuis un seul compte avec réglages indépendants.",
+      "items": [
+        "Compte centralisé",
+        "Paramètres par boutique",
+        "Transporteurs personnalisés"
+      ]
+    },
+    "carrierIntegration": {
+      "title": "Intégration transporteurs",
+      "description": "Connexion native avec les principaux transporteurs algériens.",
+      "items": ["Yalidine", "Guepex", "Maystro"]
+    },
+    "customization": {
+      "title": "Personnalisation totale",
+      "description": "Adaptez chaque message à votre marque et à vos besoins spécifiques.",
+      "items": [
+        "Templates personnalisables",
+        "Variables dynamiques",
+        "Planification avancée"
+      ]
+    }
+  },
+  "benefits": {
+    "title": "Avantages pour votre business",
+    "subtitle": "Des résultats mesurables dès les premières semaines",
+    "conversionRate": "+47%",
+    "conversionText": "Taux de conversion moyen",
+    "openRate": "95%",
+    "openRateText": "Taux d'ouverture des SMS",
+    "inquiryReduction": "-60%",
+    "inquiryReductionText": "Demandes de suivi client"
+  },
+  "howItWorks": {
+    "title": "Comment ça marche ?",
+    "subtitle": "Commencez en 3 étapes simples",
+    "step1": {
+      "title": "Accéder à la plateforme",
+      "description": "Créez votre compte en 2 minutes. Connectez-vous simplement avec votre email pour commencer."
+    },
+    "step2": {
+      "title": "Personnalisez vos messages",
+      "description": "Créez vos templates SMS pour chaque étape de livraison et vos campagnes marketing."
+    },
+    "step3": {
+      "title": "Automatisez et analysez",
+      "description": "Laissez l'IA gérer l'envoi automatique et consultez vos statistiques en temps réel."
+    }
+  },
+  "pricing": {
+    "title": "Tarifs transparents",
+    "subtitle": "Choisissez le plan qui correspond à vos besoins",
+    "free": {
+      "name": "Gratuit",
+      "description": "Pour démarrer",
+      "price": "0$",
+      "period": "",
+      "features": [
+        "50 messages",
+        "1 boutique",
+        "1 société de livraison",
+        "Lien de suivi",
+        "Auto SMS",
+        "Code Promo / Cross-sell",
+        "SenderID personnalisé"
+      ],
+      "button": "Commencer gratuitement"
+    },
+    "growth": {
+      "name": "Croissance",
+      "description": "Pour les boutiques en expansion",
+      "price": "20$",
+      "period": "/mois",
+      "popular": "POPULAIRE",
+      "features": [
+        "440 messages + 10 bonus",
+        "2 boutiques",
+        "2 sociétés de livraison/boutique",
+        "Lien de suivi",
+        "Auto SMS",
+        "Code Promo / Cross-sell",
+        "SenderID personnalisé"
+      ],
+      "button": "Choisir ce plan"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Pour les grandes entreprises",
+      "price": "50$",
+      "period": "/mois",
+      "features": [
+        "1100 messages + 30 bonus",
+        "5 boutiques",
+        "10 sociétés de livraison",
+        "Lien de suivi",
+        "Auto SMS",
+        "Code Promo / Cross-sell",
+        "SenderID personnalisé"
+      ],
+      "button": "Nous contacter"
+    }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce que vous devez savoir",
+    "questions": [
+      {
+        "question": "Combien de temps prend l'installation ?",
+        "answer": "L'installation complète prend environ 5 minutes. Vous devez simplement connecter votre boutique et configurer vos transporteurs."
+      },
+      {
+        "question": "Quels transporteurs sont supportés ?",
+        "answer": "Nous supportons nativement Yalidine, Guepex et Maystro. D'autres transporteurs seront ajoutés prochainement selon vos demandes."
+      },
+      {
+        "question": "Puis-je personnaliser les messages SMS ?",
+        "answer": "Oui, absolument ! Vous pouvez personnaliser chaque message pour chaque statut de livraison et pour vos campagnes marketing avec des variables dynamiques."
+      },
+      {
+        "question": "Comment fonctionne le suivi automatique ?",
+        "answer": "Une fois votre transporteur connecté, le système vérifie automatiquement le statut de chaque colis et envoie un SMS personnalisé à votre client à chaque changement d'état."
+      },
+      {
+        "question": "Puis-je essayer gratuitement ?",
+        "answer": "Oui ! Nous offrons une période d'essai de 14 jours sans engagement. Aucune carte bancaire n'est requise pour commencer."
+      },
+      {
+        "question": "Comment gérer plusieurs boutiques ?",
+        "answer": "Avec un seul compte, vous pouvez gérer plusieurs boutiques. Chaque boutique peut avoir ses propres réglages SMS et transporteurs configurés indépendamment."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à booster vos ventes ?",
+    "subtitle": "Rejoignez des centaines d'e-commerçants qui font confiance à SMS Pro",
+    "freeTrial": "Essayer gratuitement",
+    "scheduleDemo": "Planifier une démo",
+    "footer": "Sans engagement • Inscription Gratuite • Support"
+  },
+  "footer": {
+    "description": "La solution tout-en-un pour automatiser vos SMS et booster vos ventes.",
+    "product": "Produit",
+    "support": "Support",
+    "legal": "Légal",
+    "documentation": "Documentation",
+    "contact": "Contact",
+    "tutorials": "Tutoriels",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "copyright": "© 2024 SMS Pro. Tous droits réservés."
+  }
+}

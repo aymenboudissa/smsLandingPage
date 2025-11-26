@@ -1,0 +1,197 @@
+{
+  "nav": {
+    "features": "Features",
+    "howItWorks": "How it works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "tryNow": "Try now"
+  },
+  "hero": {
+    "tagline": "All-in-one solution for e-commerce",
+    "title": "Automate your SMS and",
+    "highlightedTitle": "boost your sales",
+    "description": "Targeted SMS marketing campaigns, automatic package tracking with personalized notifications, and native integration with Algerian carriers.",
+    "startFree": "Start for free",
+    "seeDemo": "See demo",
+    "noCommitment": "No commitment",
+    "fiveMinSetup": "Free Registration"
+  },
+  "features": {
+    "title": "Powerful features",
+    "subtitle": "Everything you need to transform your customer communication",
+    "marketingCampaigns": {
+      "title": "SMS Marketing Campaigns",
+      "description": "Create targeted campaigns for retargeting, loyalty, and promotions.",
+      "items": [
+        "Inactive customer follow-up",
+        "Personalized messages",
+        "Abandoned cart recovery"
+      ]
+    },
+    "bulkSending": {
+      "title": "Bulk sending",
+      "description": "Import an Excel file and send SMS to thousands of contacts with one click.",
+      "items": [
+        "Simple Excel import",
+        "Fast and reliable sending",
+        "Real-time campaign tracking"
+      ]
+    },
+    "packageTracking": {
+      "title": "Automatic package tracking",
+      "description": "Automatic SMS at each delivery stage with customizable messages.",
+      "items": [
+        "9 tracking statuses",
+        "Customizable messages",
+        "Automatic tracking link"
+      ]
+    },
+    "multiStore": {
+      "title": "Multi-store management",
+      "description": "Manage multiple stores from a single account with independent settings.",
+      "items": ["Centralized account", "Per-store settings", "Custom carriers"]
+    },
+    "carrierIntegration": {
+      "title": "Carrier integration",
+      "description": "Native connection with major Algerian carriers.",
+      "items": ["Yalidine", "Guepex", "Maystro"]
+    },
+    "customization": {
+      "title": "Total customization",
+      "description": "Adapt each message to your brand and specific needs.",
+      "items": [
+        "Customizable templates",
+        "Dynamic variables",
+        "Advanced scheduling"
+      ]
+    }
+  },
+  "benefits": {
+    "title": "Benefits for your business",
+    "subtitle": "Measurable results from the first weeks",
+    "conversionRate": "+47%",
+    "conversionText": "Average conversion rate",
+    "openRate": "95%",
+    "openRateText": "SMS open rate",
+    "inquiryReduction": "-60%",
+    "inquiryReductionText": "Customer tracking inquiries"
+  },
+  "howItWorks": {
+    "title": "How it works?",
+    "subtitle": "Start in 3 simple steps",
+    "step1": {
+      "title": "Access the platform",
+      "description": "Create your account in 2 minutes. Simply log in with your email to get started."
+    },
+    "step2": {
+      "title": "Customize your messages",
+      "description": "Create your SMS templates for each delivery stage and your marketing campaigns."
+    },
+    "step3": {
+      "title": "Automate and analyze",
+      "description": "Let AI handle automatic sending and consult your statistics in real time."
+    }
+  },
+  "pricing": {
+    "title": "Transparent Pricing",
+    "subtitle": "Choose the plan that fits your needs",
+    "free": {
+      "name": "Free",
+      "description": "To get started",
+      "price": "$0",
+      "period": "",
+      "features": [
+        "50 messages",
+        "1 store",
+        "1 delivery company",
+        "Tracking link",
+        "Auto SMS",
+        "Promo Code / Cross-sell",
+        "Custom SenderID"
+      ],
+      "button": "Start for free"
+    },
+    "growth": {
+      "name": "Growth",
+      "description": "For expanding stores",
+      "price": "$20",
+      "period": "/month",
+      "popular": "POPULAR",
+      "features": [
+        "440 messages + 10 bonus",
+        "2 stores",
+        "2 delivery companies/store",
+        "Tracking link",
+        "Auto SMS",
+        "Promo Code / Cross-sell",
+        "Custom SenderID"
+      ],
+      "button": "Choose this plan"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "For large companies",
+      "price": "$50",
+      "period": "/month",
+      "features": [
+        "1100 messages + 30 bonus",
+        "5 stores",
+        "10 delivery companies",
+        "Tracking link",
+        "Auto SMS",
+        "Promo Code / Cross-sell",
+        "Custom SenderID"
+      ],
+      "button": "Contact us"
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Everything you need to know",
+    "questions": [
+      {
+        "question": "How long does installation take?",
+        "answer": "Complete installation takes about 5 minutes. You simply need to connect your store and configure your carriers."
+      },
+      {
+        "question": "Which carriers are supported?",
+        "answer": "We natively support Yalidine, Guepex and Maystro. Other carriers will be added soon based on your requests."
+      },
+      {
+        "question": "Can I customize SMS messages?",
+        "answer": "Yes, absolutely! You can customize each message for each delivery status and for your marketing campaigns with dynamic variables."
+      },
+      {
+        "question": "How does automatic tracking work?",
+        "answer": "Once your carrier is connected, the system automatically checks the status of each package and sends a personalized SMS to your customer at each status change."
+      },
+      {
+        "question": "Can I try for free?",
+        "answer": "Yes! We offer a permanent free subscription with no commitment. No credit card required to start."
+      },
+      {
+        "question": "How to manage multiple stores?",
+        "answer": "With a single account, you can manage multiple stores. Each store can have its own SMS settings and carriers configured independently."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to boost your sales?",
+    "subtitle": "Join hundreds of e-commerce merchants who trust SMS Pro",
+    "freeTrial": "Try it for free",
+    "scheduleDemo": "Schedule a demo",
+    "footer": "No commitment • Free Registration • Support"
+  },
+  "footer": {
+    "description": "The all-in-one solution to automate your SMS and boost your sales.",
+    "product": "Product",
+    "support": "Support",
+    "legal": "Legal",
+    "documentation": "Documentation",
+    "contact": "Contact",
+    "tutorials": "Tutorials",
+    "terms": "Terms of use",
+    "privacy": "Privacy policy",
+    "copyright": "© 2024 SMS Pro. All rights reserved."
+  }
+}
