@@ -154,8 +154,8 @@
     "subtitle": "Tout ce que vous devez savoir",
     "questions": [
       {
-        "question": "Combien de temps prend l'installation ?",
-        "answer": "L'installation complète prend environ 5 minutes. Vous devez simplement connecter votre boutique et configurer vos transporteurs."
+        "question": "Puis-je essayer gratuitement ?",
+        "answer": "Oui ! Nous proposons un abonnement gratuit permanent sans engagement. Aucune carte bancaire n'est requise pour commencer."
       },
       {
         "question": "Quels transporteurs sont supportés ?",
@@ -169,10 +169,7 @@
         "question": "Comment fonctionne le suivi automatique ?",
         "answer": "Une fois votre transporteur connecté, le système vérifie automatiquement le statut de chaque colis et envoie un SMS personnalisé à votre client à chaque changement d'état."
       },
-      {
-        "question": "Puis-je essayer gratuitement ?",
-        "answer": "Oui ! Nous offrons une période d'essai de 14 jours sans engagement. Aucune carte bancaire n'est requise pour commencer."
-      },
+
       {
         "question": "Comment gérer plusieurs boutiques ?",
         "answer": "Avec un seul compte, vous pouvez gérer plusieurs boutiques. Chaque boutique peut avoir ses propres réglages SMS et transporteurs configurés indépendamment."

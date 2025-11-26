@@ -17,8 +17,11 @@ import { APP_URL } from "./utils/contants";
 import TextType from "./components/TextType";
 import CountUp from "./components/CountUp";
 import Particles from "./components/Particles";
-import { motion } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
+import { ChevronDown } from "lucide-react";
+
 function App() {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [language, setLanguage] = useState("fr");
   const { t } = useTranslation();
 
@@ -941,23 +944,65 @@ function App() {
             </h2>
             <p className="text-xl text-gray-600">{t("faq.subtitle")}</p>
           </div>
-
           <div className="space-y-6">
             {t("faq.questions", { returnObjects: true }).map(
               (item: any, index: number) => (
-                <div
+                <motion.div
                   key={index}
                   className={`bg-gradient-to-r ${
                     index % 2 === 0
                       ? "from-purple-50 to-blue-50"
                       : "from-blue-50 to-purple-50"
-                  } p-6 rounded-xl`}
+                  } p-6 rounded-xl cursor-pointer overflow-hidden`}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-50px" }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  whileHover={{ scale: 1.02 }}
+                  onClick={() =>
+                    setOpenIndex(openIndex === index ? null : index)
+                  }
                 >
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">
-                    {item.question}
-                  </h3>
-                  <p className="text-gray-600">{item.answer}</p>
-                </div>
+                  <div className="flex justify-between items-start gap-4">
+                    <motion.h3
+                      className="text-xl font-bold text-gray-900"
+                      initial={{ opacity: 0, x: -20 }}
+                      whileInView={{ opacity: 1, x: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.5, delay: index * 0.1 + 0.2 }}
+                    >
+                      {item.question}
+                    </motion.h3>
+                    <motion.div
+                      animate={{ rotate: openIndex === index ? 180 : 0 }}
+                      transition={{ duration: 0.3 }}
+                      className="flex-shrink-0"
+                    >
+                      <ChevronDown className="w-6 h-6 text-gray-600" />
+                    </motion.div>
+                  </div>
+
+                  <AnimatePresence initial={false}>
+                    {openIndex === index && (
+                      <motion.div
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.3, ease: "easeInOut" }}
+                      >
+                        <motion.p
+                          className="text-gray-600 mt-2 pt-2"
+                          initial={{ opacity: 0, y: -10 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0, y: -10 }}
+                          transition={{ duration: 0.2, delay: 0.1 }}
+                        >
+                          {item.answer}
+                        </motion.p>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </motion.div>
               )
             )}
           </div>
