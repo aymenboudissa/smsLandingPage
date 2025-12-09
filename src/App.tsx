@@ -19,7 +19,7 @@ import CountUp from "./components/CountUp";
 import Particles from "./components/Particles";
 import { AnimatePresence, motion } from "motion/react";
 import { ChevronDown } from "lucide-react";
-
+import Logo from "./logo.svg";
 function App() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [language, setLanguage] = useState("fr");
@@ -46,10 +46,7 @@ function App() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
               <div className="flex items-center space-x-2">
-                <MessageSquare className="w-8 h-8 text-[#9810fa]" />
-                <span className="text-2xl font-bold bg-gradient-to-r from-[#9810fa] to-[#155dfc] bg-clip-text text-transparent">
-                  SMS Pro
-                </span>
+                <img className="h-10" src={Logo} />
               </div>
               <div className="hidden z-100 md:flex space-x-8">
                 <a
